@@ -9,7 +9,7 @@ def get_session_update(tool_schema, instructions):
       "session": {
           "modalities": ["text", "audio"],
           "instructions": instructions,
-          "voice": "alloy",
+          "voice": "shimmer",
           "input_audio_format": "pcm16",
           "output_audio_format": "pcm16",
           "turn_detection": {

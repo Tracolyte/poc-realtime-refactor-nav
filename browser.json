@@ -5,5 +5,5 @@
     "https://google.com",
     "https://youtube.com"
   ],
-  "browser": "open -a /Applications/Google\\ Chrome.app %s"
+  "browser": "C:/Program Files/Google/Chrome/Application/chrome.exe %s"
 }
