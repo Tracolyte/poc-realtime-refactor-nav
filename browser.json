@@ -1,0 +1,9 @@
+{
+  "browser_urls": [
+    "https://amazon.com",
+    "https://chat.openai.com",
+    "https://google.com",
+    "https://youtube.com"
+  ],
+  "browser": "open -a /Applications/Google\\ Chrome.app %s"
+}
