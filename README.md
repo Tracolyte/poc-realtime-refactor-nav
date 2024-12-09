@@ -1,9 +1,9 @@
 # POC Python Realtime API o1 assistant
-> This is a proof of concept for using the OpenAI's [Realtime API](https://openai.com/index/introducing-the-realtime-api/) to chain tools, call o1-preview & o1-mini, [structure output](https://openai.com/index/introducing-structured-outputs-in-the-api/) responses, and glimpse into the future of **AI assistant powered engineering**.
->
-> See video where we [use and discuss this POC](https://youtu.be/vN0t-kcPOXo)
->
-> This codebase is a v0, poc. It's buggy, but contains the core ideas for realtime personal ai assistants & AI Agents.
+> This is a proof of concept that expands on IndyDevDan's project that uses OpenAI's [Realtime API](https://openai.com/index/introducing-the-realtime-api/) to chain tools, call o1-preview & o1-mini, [structure output](https://openai.com/index/introducing-structured-outputs-in-the-api/) responses, and glimpse into the future of **AI assistant powered engineering**.
+
+This iteration adds functionalities that allow the AI to take actions on the user's computer using PythonAutoGUI to click the mouse.
+A screenshot of the user's screen is sent to GPT=4o with a prompt for consideration, GPT-4o maps coordinates to the screen based on the user's request, and finally, the mouse is clicked at those coordinates using PythonAutoGUI.
+
 
 ## Setup
 - [Install uv](https://docs.astral.sh/uv/), the hyper modern Python package manager.
@@ -16,12 +16,12 @@
 
 Here are some voice commands you can try with the assistant:
 
-1. "Hey Ada, how are you?"
+1. "Hey Sage, How are you?"
 2. "What's the current time?"
 3. "Generate a random number."
-4. "Open ChatGPT, Claude, and Hacker News."
-5. "Create a new CSV file called user analytics with 10 mock rows."
-6. "Update the user analytics file, add 20 additional mock rows, use a reasoning model."
+4. "Open Amazon."
+5. "Search Amazon for Groceries."
+6. "Click the Celery, Add to cart."
 
 ## Code Breakdown
 
