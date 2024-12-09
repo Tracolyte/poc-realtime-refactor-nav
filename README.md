@@ -2,7 +2,7 @@
 > This is a proof of concept that expands on IndyDevDan's project that uses OpenAI's [Realtime API](https://openai.com/index/introducing-the-realtime-api/) to chain tools, call o1-preview & o1-mini, [structure output](https://openai.com/index/introducing-structured-outputs-in-the-api/) responses, and glimpse into the future of **AI assistant powered engineering**.
 
 This iteration adds functionalities that allow the AI to take actions on the user's computer using PythonAutoGUI to click the mouse.
-A screenshot of the user's screen is sent to GPT=4o with a prompt for consideration, GPT-4o maps coordinates to the screen based on the user's request, and finally, the mouse is clicked at those coordinates using PythonAutoGUI.
+A screenshot of the user's screen is sent to GPT-4o with a prompt for consideration, GPT-4o maps coordinates to the screen based on the user's request, and finally, the mouse is clicked at those coordinates using PythonAutoGUI.
 
 
 ## Setup
