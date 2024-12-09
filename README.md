@@ -5,8 +5,6 @@
 >
 > This codebase is a v0, poc. It's buggy, but contains the core ideas for realtime personal ai assistants & AI Agents.
 
-<img src="./images/ada-is-back.png" alt="realtime-assistant" style="max-width: 800px;">
-
 ## Setup
 - [Install uv](https://docs.astral.sh/uv/), the hyper modern Python package manager.
 - Setup environment `cp .env.sample .env` add your `OPENAI_API_KEY`
